@@ -1,0 +1,108 @@
+* {
+    font-family:"Impact";
+    text-align: center;
+    box-sizing: border-box;
+    color:white;
+}
+
+header {
+    position:sticky;
+    top:0;
+    background-color: #E84545;
+    margin: 0;
+}
+
+header table{
+    cursor: pointer;
+    width: 100%;
+}
+
+#three_lines {
+    padding-top: 10px;
+}
+
+nav {
+    height:auto;
+    overflow: hidden;
+    transition: max-height 1s;
+    margin: 0;
+    font-size: large;
+    max-height: 0;
+}
+
+nav table {
+    width:100%;
+    background-color: #903749;
+    padding: 1%;
+    font-size: 22px;
+}
+
+header table:hover + nav, nav:hover {
+    max-height: 100px;
+}
+
+#introvid {
+    display: block;
+    min-width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    margin:0;
+    padding:0;
+    border-radius: 0;
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+[href] {
+    color:white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+
+ul {
+    display:inline-block;
+    font-size: 20px;
+}
+
+.important {
+    font-weight: bold;
+    text-align: center;
+}
+
+#historia {
+    color:rgb(170, 106, 34);
+}
+
+figure, figcaption {
+    text-align: center;
+    font-size: 22px;
+    color:gold;
+    text-shadow: 2px 2px black;
+    margin: 0;
+    line-height: 60px;
+}
+
+body {
+    margin: 0;
+    background: #2B2E4A;
+}
+
+#contacte {
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 15px;
+    background-color: #53354A;
+    box-shadow: 0 0 5px rgba(124, 112, 132,0.8);
+}
+
+input, textarea {
+    background-color: #53354A;
+}
+
+img, video {
+    border-radius: 15px;
+}
