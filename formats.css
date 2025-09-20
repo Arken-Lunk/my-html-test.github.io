@@ -151,11 +151,6 @@ img, video {
     font-size: 18px;
   }
   
-  nav table tr {
-    display: flex;
-    flex-direction: row;
-  }
-  
     nav table td {
         border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Adds subtle separators */
         margin: 5px 0; /* Adds spacing between items */
