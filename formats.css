@@ -97,10 +97,12 @@ body {
     min-width: 150px;
     min-height: 100px;
     flex-grow: 2;
-    justify-content: center;
+    align-items: center;
 }
 
 .contacte {
+    display: flex;
+    flex-direction: column;
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 15px;
@@ -108,9 +110,10 @@ body {
     box-shadow: 0 0 5px rgba(124, 112, 132,0.8);
 }
 
-.contacte.inlined {
-    display: flex;
-    align-items: baseline;
+.contacte figure {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 input, textarea {
