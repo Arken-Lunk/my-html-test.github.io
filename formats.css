@@ -123,3 +123,101 @@ input, textarea {
 img, video {
     border-radius: 15px;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  /* Adjust text sizes for mobile */
+  p {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  h1.important {
+    font-size: 24px;
+  }
+  
+  /* Make navigation more mobile-friendly */
+  nav table {
+    font-size: 18px;
+  }
+  
+  nav table tr {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav table td {
+    padding: 10px 0;
+  }
+  
+  /* Adjust header elements */
+  header table td:first-child img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  #three_lines img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust video size */
+  #introvid {
+    height: 200px;
+  }
+  
+  /* Adjust contact section */
+  .contacte {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  /* Improve touch targets */
+  nav table td a {
+    padding: 12px 0;
+    display: block;
+  }
+}
+
+/* Additional adjustments for very small screens */
+@media (max-width: 480px) {
+  p {
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  h1.important {
+    font-size: 22px;
+  }
+  
+  nav table {
+    font-size: 16px;
+  }
+  
+  .contacte {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  #introvid {
+    height: 150px;
+  }
+  
+  header table td:first-child img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #three_lines img {
+    width: 40px;
+    height: 40px;
+  }
+}
