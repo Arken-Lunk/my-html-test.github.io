@@ -91,12 +91,26 @@ body {
     background: #2B2E4A;
 }
 
-#contacte {
+.quisom figure {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    min-height: 100px;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.contacte {
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 15px;
     background-color: #53354A;
     box-shadow: 0 0 5px rgba(124, 112, 132,0.8);
+}
+
+.contacte.inlined {
+    display: flex;
+    align-items: baseline;
 }
 
 input, textarea {
