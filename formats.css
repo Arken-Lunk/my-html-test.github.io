@@ -151,15 +151,6 @@ img, video {
     font-size: 20px;
   }
   
-    nav table td {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Adds subtle separators */
-        margin: 5px 0; /* Adds spacing between items */
-    }
-
-    nav table tr td:last-child {
-        border-bottom: none; /* Removes border from last item */
-    }
-  
   /* Adjust header elements */
   header table td:first-child img {
     width: 70px;
