@@ -137,7 +137,7 @@ img, video {
 @media (max-width: 768px) {
   /* Adjust text sizes for mobile */
   p {
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -148,7 +148,7 @@ img, video {
   
   /* Make navigation more mobile-friendly */
   nav table {
-    font-size: 18px;
+    font-size: 20px;
   }
   
     nav table td {
@@ -180,6 +180,7 @@ img, video {
   /* Adjust video size */
   #introvid {
     height: 100px;
+    width: 100%;
   }
   
   /* Adjust contact section */
