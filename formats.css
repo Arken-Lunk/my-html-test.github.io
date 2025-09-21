@@ -64,11 +64,16 @@ p {
 }
 
 ul  {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     font-size: 22px;
-    align-items: baseline;
 }
+
+#quisom ul {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
 
 .important {
     font-weight: bold;
