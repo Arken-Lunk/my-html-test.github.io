@@ -63,9 +63,11 @@ p {
     text-shadow: 2px 2px black;
 }
 
-ul {
-    display:inline-block;
-    font-size: 20px;
+ul  {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    align-items: baseline;
 }
 
 .important {
@@ -137,7 +139,7 @@ img, video {
 @media (max-width: 768px) {
   /* Adjust text sizes for mobile */
   p {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -148,8 +150,22 @@ img, video {
   
   /* Make navigation more mobile-friendly */
   nav table {
-    font-size: 20px;
+    font-size: 18px;
   }
+  
+  nav table tr {
+    display: flex;
+    flex-direction: column;
+  }
+  
+    nav table td {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Adds subtle separators */
+        margin: 5px 0; /* Adds spacing between items */
+    }
+
+    nav table tr td:last-child {
+        border-bottom: none; /* Removes border from last item */
+    }
   
   /* Adjust header elements */
   header table td:first-child img {
@@ -170,8 +186,7 @@ img, video {
   
   /* Adjust video size */
   #introvid {
-    height: 100px;
-    width: 100%;
+    height: 200px;
   }
   
   /* Adjust contact section */
@@ -187,7 +202,7 @@ img, video {
   }
 
   figure, figcaption {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.3;
   }
 }
@@ -207,7 +222,7 @@ img, video {
   nav table {
     font-size: 16px;
   }
-  
+
     .contacte {
         margin-left: 2%;
         margin-right: 2%;
@@ -226,10 +241,5 @@ img, video {
   #three_lines img {
     width: 40px;
     height: 40px;
-  }
-
-  figure, figcaption {
-    font-size: 18px;
-    line-height: 1.3;
   }
 }
